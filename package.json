@@ -1,0 +1,39 @@
+{
+  "name": "githubby",
+  "version": "0.0.1",
+  "description": "Mocks Github Users portal for test executions",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -L index.js",
+    "dev": "nodemon index.js",
+		"test": "jest",
+		"test:free":"jest -- user_free.test.js",
+		"test:medium":"jest -- user_employee.test.js",
+		"test:pro":"jest -- user_pro.test.js",
+		"test:employee":"jest -- user_employee.test.js"
+  },
+  "author": "Jason Burns",
+  "license": "ISC",
+  "devDependencies": {
+    "command-line-args": "^5.0.2",
+    "faker": "^4.1.0",
+    "handlebars": "^4.0.11",
+    "jest": "^29.0.2",
+    "js-beautify": "^1.7.5",
+    "nodemon": "^1.19.0",
+    "soap": "^0.30.0"
+  },
+  "nodemonConfig": {
+    "watch": [
+      "*"
+    ],
+    "ext": "ts",
+    "ignore": [
+      ""
+    ],
+    "delay": "1",
+    "execMap": {
+      "ts": "ts-node"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ptntprtlBillPay="https://docs.github.com/en/rest/users/users" name="Githubby" targetNamespace="https://docs.github.com/en/rest/users/users">
+<wsdl:types>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:usersGithubby="https://docs.github.com/en/rest/users/users/" xmlns:common="http://www.githubby.com/PatientPortalCommonXMLSchema" targetNamespace="https://docs.github.com/en/rest/users/users/">
+<xsd:import namespace="https://docs.github.com/en/rest/users/users" schemaLocation="https://docs.github.com/en/rest/users/users"/>
